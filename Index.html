@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Travel</title>
+    <link rel="stylesheet" href="FlightTr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+</head>
+<body>
+  
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="Images/navicon.png" alt="">
+        <span>FT PLANE</span>
+      </div>
+        
+    
+      <nav class="nav-links" id="navLinks">
+        <a href="#"><i class="fa-solid fa-plane-departure"></i>All Flight</a>
+        <a href="#"><i class="fa-solid fa-calendar"></i>Schedule</a>
+        <a href="#"><i class="fa-solid fa-users"></i>Passenger</a>
+        <a href="#"><i class="fa-solid fa-box-open"></i>Your Orders</a>
+      </nav>
+    
+      <button class="btn-primary">Let's Fly</button>
+       <div onclick="menu()" id="menuicon">
+        <i  class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+        <img src="Images/flight frmae.png" alt="">
+      <h1 class="hero-title">Travel Around The World</h1>
+      <p class="hero-subtitle">One of the simplest ways of flying throughout the world, always having amazing memories.</p>
+
+    </div>
+  </section>
+  
+  <div class="flight-options">
+    <div style="border-right: 1px solid gainsboro;" class="tab active"><h4>Economy</h4></div> 
+    <div style="border-right: 1px solid gainsboro;" class="tab"><h4>Business</h4></div> 
+    <div class="tab"><h4>First</h4></div>
+  </div>
+  
+  <div class="flight-search-container">
+  
+    <div class="flight-form">
+      <div class="flight-field">
+        <div class="flight-icon"><img src="Images/location icon.png" alt=""></div>
+        <div>
+          <label>Location</label>
+          <input type="text" placeholder="Where are you going?" />
+        </div>
+      </div>
+      <div class="flight-field">
+        <div class="flight-icon"><img src="Images/mens icon.png" alt=""></div>
+        <div>
+          <label>Travelers</label>
+          <input type="text" placeholder="Add guest" />
+        </div>
+      </div>
+      <div class="flight-field">
+        <div class="flight-icon"><img src="Images/clander icon.png" alt=""></div>
+        <div>
+          <label>Check-in</label>
+          <input type="text" placeholder="Add date" />
+        </div>
+      </div>
+      <div class="flight-field">
+        <div class="flight-icon"><img src="Images/clander icon.png" alt=""></div>
+        <div>
+          <label>Check-out</label>
+          <input type="text" placeholder="Add date" />
+        </div>
+      </div>
+      <div class="flight-button-wrap">
+        <button class="flight-book-btn">Book Now</button>
+      </div>
+    </div>
+  </div>
+  
+
+  <section class="features-section">
+    <h2 class="features-title">Our Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><img src="Images/travel 1.png" alt=""></div>
+        <h3>Best Guide</h3>
+        <p>Suspindisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.</p>
+        <div class="feature-arrow"><img src="Images/Arrow icon.png" alt=""></div>
+      </div>
+      <div style="margin-top: -3vw;" class="feature-card">
+        <div class="feature-icon"><img src="Images/discount 1.png" alt=""></div>
+        <h3>More Discount</h3>
+        <p>Suspindisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.</p>
+        <div class="feature-arrow"><img src="Images/Arrow icon.png" alt=""></div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><img src="Images/discount 1.png" alt=""></div>
+        <h3>Private</h3>
+        <p>Suspindisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.</p>
+        <div class="feature-arrow"><img src="Images/Arrow icon.png" alt=""></div>
+      </div>
+      <div style="margin-top: -3vw;"  class="feature-card">
+        <div class="feature-icon"><img src="Images/customer-service 1.png" alt=""></div>
+        <h3>Online Support</h3>
+        <p>Suspindisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.</p>
+        <div class="feature-arrow"><img src="Images/Arrow icon.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="flight-platform-wrapper">
+    <!-- Left: Images -->
+<div class="wrapper">
+<img src="Images/wrapperimg1.png" alt="">
+</div>
+<div class="wrapper2">
+  <img src="Images/wrapper 2.png" alt="">
+</div>
+<div class="wrapper3">
+  <img src="Images/passport.png" alt="">
+</div>
+<div class="cloud">
+ <img src="Images/Clouds.png" alt="">
+</div>
+<div class="rate">
+<img src="Images/rate.png" alt="">
+</div>
+<div class="airticket">
+  <img src="Images/Airplane Ticket.png" alt="">
+</div>
+<div class="newyk">
+  <img src="Images/location.png" alt="">
+</div>
+  
+    <!-- Right: Text Content -->
+    <div class="flight-content-area">
+      <h4>Let’s Fly</h4>
+      <h2>It’s one of the leading online flight booking platforms in the world</h2>
+      <ul>
+        <li>Contrary to popular belief, Lorem Ipsum is not simply random text</li>
+        <li>If you are going to use a passage of Lorem Ipsum</li>
+        <li>Lorem Ipsum is free from repetition, injected humour etc.</li>
+        <li>Reader will be distracted by the readable content</li>
+      </ul>
+      <button>Book Now</button>
+    </div>
+  </section>
+
+
+  <!-- Slider Flight Section -->
+<section class="flight-slider-section">
+  <div class="slider-left">
+    <h2 class="slider-title">Book Popular Flight <br> Tickets</h2>
+    <p class="slider-desc">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    </p>
+    <img src="Images/Air Delivery.png" alt="Globe" class="slider-image" />
+  </div>
+
+  <div class="slider-right">
+    <div class="ticket-slider">
+      
+      <!-- Slide 1 -->
+      <div class="ticket-slide">
+        <div class="ticket-notch-left"></div>
+        <div class="ticket-card">
+          <div class="ticket-top">
+            <span class="ticket-badge">Economy Saver</span>
+            <div class="ticket-route">UK <span>→</span> BD</div>
+          </div>
+          <h4 class="ticket-title">6 Flight Tickets</h4>
+          <div class="ticket-info">
+            <div><strong>Passenger</strong><br />Raju Mullah</div>
+            <div><strong>Date</strong><br />20 Nov 2022</div>
+            <div><strong>Flight</strong><br />#5486626661</div>
+            <div><strong>Gate</strong><br />20 A</div>
+            <div><strong>Class</strong><br />Economy</div>
+            <div><strong>Seats</strong><br />5B - 11B</div>
+          </div>
+          <div style="border-top: dotted gainsboro;" class="ticket-barcode">
+              <img src="Images/barcode.png" alt="">
+          </div>
+        </div>
+        <div class="ticket-notch-right"></div>
+      </div>
+
+      
+  </div>
+    <div class="slider-controls">
+      <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <div class="slider-buttons">
+        <button class="arrow-btn"><img src="Images/arrow right.png" alt=""></button>
+        <button class="arrow-btn active"><img src="Images/arrow left.png" alt=""></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Best Travellers Section -->
+<section class="top-travelers-section">
+  <h2 class="top-travelers-title">Best Travelars Of This Month</h2>
+  <div class="top-travelers-container">
+    
+    <!-- Traveler Card 1 -->
+    <div class="traveler-card">
+      <img class="traveler-bg" src="Images/Subtract.png" alt="Place 1">
+      <div class="traveler-profile">
+        <img src="Images/Ellipse 734.png" alt="Profile 1">
+        <p class="traveler-name">Raju Mullah</p>
+        <p class="traveler-handle">@rajumullah</p>
+      </div>
+    </div>
+
+    <!-- Traveler Card 2 -->
+    <div class="traveler-card">
+      <img class="traveler-bg" src="Images/build.png" alt="Place 2">
+      <div class="traveler-profile">
+        <img src="Images/fmale.png" alt="Profile 2">
+        <p class="traveler-name">Zaire Vetrovs</p>
+        <p class="traveler-handle">@zairevetrovs</p>
+      </div>
+    </div>
+
+    <!-- Traveler Card 3 -->
+    <div class="traveler-card">
+      <img class="traveler-bg" src="Images/build3.png" alt="Place 3">
+      <div class="traveler-profile">
+        <img src="Images/fmale3.png" alt="Profile 3">
+        <p class="traveler-name">Marcus Dias</p>
+        <p class="traveler-handle">@marcusdias</p>
+      </div>
+    </div>
+
+    <!-- Traveler Card 4 -->
+    <div class="traveler-card">
+      <img class="traveler-bg" src="Images/build4.png" alt="Place 4">
+      <div class="traveler-profile">
+        <img src="Images/fmale4.png" alt="Profile 4">
+        <p class="traveler-name">Davis Schleifer</p>
+        <p class="traveler-handle">@davisschleifer</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="customer-section-nj">
+  <div class="customer-heading-nj">
+    <p class="customer-subtitle-nj">What's our customer saying</p>
+    <h2 class="customer-title-nj">Our Customer Feedback</h2>
+  </div>
+
+  <div class="customer-main-nj">
+    <div class="customer-map-nj">
+      <img src="Images/map1.png" alt="Map" class="customer-map-img-nj" id="customerMapImage" />
+    </div>
+
+    <div class="customer-card-nj" id="customerCard">
+      <div class="customer-user-info-nj">
+        <img src="Images/user1.png" alt="User" class="customer-user-img-nj" id="customerImg" />
+        <div>
+          <h4 class="customer-user-name-nj" id="customerName">Jaylon Vaccaro</h4>
+          <div class="customer-stars-nj" id="customerStars">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+      <p class="customer-quote-nj" id="customerQuote">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t...
+      </p>
+    </div>
+  </div>
+
+  <div class="customer-nav-nj">
+    <button class="customer-btn-nj" onclick="prevCustomer()"><img src="Images/arrow right.png" alt=""></button>
+    <button class="customer-btn-nj active-nj" onclick="nextCustomer()"><img src="Images/arrow left.png" alt=""></button>
+  </div>
+</section>
+
+ <!-- Memories Section -->
+ <section class="memories-section">
+  <h2 class="memories-heading">Make Memories With Us</h2>
+  <div class="memories-gallery">
+    <img style="margin-top: -3vw;"  src="Images/buraj1.png"  class="memory-image">
+    <img src="Images/burj2.png"  class="memory-image">
+    <img style="margin-top: -3vw;"  src="Images/burjAl.png"  class="memory-image">
+    <img src="Images/roadside.png"  class="memory-image">
+  </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter-section">
+  <h2 class="newsletter-heading">Subscribe Newsletter &<br>Get Latest News</h2>
+  <div class="newsletter-box">
+    <input type="email" placeholder="Enter your email address" class="newsletter-input" />
+    <button class="newsletter-button">Subscribe</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="Images/navicon.png" alt="">
+      <span>FT PLANE</span>
+      <p>There are many variations of passages of <br> Lorem Ipsum available,<br> but the majority have suffered  <br>alteration in some form</p>
+      <div class="social-icons">
+          <a href="#"><span class="icon"><img src="Images/fbicon.png" alt=""></span></a>
+          <a href="#"><span class="icon"><img src="Images/linkedinin.png" alt=""></span></a>
+          <a href="#"><span class="icon"><img src="Images/twitter.png" alt=""></span></a>
+        </div>
+        
+    </div>
+    
+    <div class="footer-links">
+      <h4>Address</h4>
+      <ul>
+        <li>Integrations</li>
+        <li>Hello</li>
+        <li>Intercom</li>
+        <li>Customer</li>
+      </ul>
+    </div>
+    
+    <div class="footer-links">
+      <h4>About</h4>
+      <ul>
+        <li>Our Blog</li>
+        <li>Customers</li>
+        <li>Our Team</li>
+        <li>Careers</li>
+        <li>Integrations</li>
+      </ul>
+    </div>
+    
+    <div class="footer-links">
+      <h4>Support</h4>
+      <ul>
+        <li>Test Zoom</li>
+        <li>Account</li>
+        <li>Support Center</li>
+        <li>Live Training</li>
+        <li>Accessibility</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Copyright © FT PLANE 2022 All right reserved</p>
+  </div>
+</footer>
+
+
+<script>
+  const customers = [
+    {
+      map: 'Images/map.png',
+      img: 'Images/user.png',
+      name: 'Jaylon Vaccaro',
+      stars: '⭐⭐⭐⭐⭐',
+      quote: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t...'
+    },
+    {
+      map: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-IqNVv5zNsJfF4YF77tcZJYY3dV1336tPXg&s',
+      img: 'Images/user2.png',
+      name: 'Elisa Valdez',
+      stars: '⭐⭐⭐⭐',
+      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since...'
+    },
+    {
+      map: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWSvrJgXTRbc_MvpeNJce2j3RqPatPnJtZw&s',
+      img: 'Images/user3.png',
+      name: 'Michael Rivera',
+      stars: '⭐⭐⭐⭐⭐',
+      quote: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+    }
+  ];
+
+  let currentCustomer = 0;
+
+  function showCustomer(index) {
+    const customer = customers[index];
+    document.getElementById('customerMapImage').src = customer.map;
+    document.getElementById('customerImg').src = customer.img;
+    document.getElementById('customerName').textContent = customer.name;
+    document.getElementById('customerStars').textContent = customer.stars;
+    document.getElementById('customerQuote').textContent = customer.quote;
+  }
+
+  function nextCustomer() {
+    currentCustomer = (currentCustomer + 1) % customers.length;
+    showCustomer(currentCustomer);
+  }
+
+  function prevCustomer() {
+    currentCustomer = (currentCustomer - 1 + customers.length) % customers.length;
+    showCustomer(currentCustomer);
+  }
+  showCustomer(currentCustomer);
+
+
+  function menu(){
+    const navLinks=document.getElementById("navLinks");
+    const icon=document.querySelector("#menuicon i");
+    navLinks.classList.toggle("show");
+
+    if(navLinks.classList.contains("show")){
+      icon.classList.remove("fa-bars");
+      icon.classList.add("fa-xmark");
+    }else{
+      icon.classList.remove("fa-xmark");
+      icon.classList.add("fa-bars");
+    }
+  }
+ 
+</script>
+
+
+  </body>
+</html>
